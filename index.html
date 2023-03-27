@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
 
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -42,9 +42,11 @@
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#service" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#work" class="nav-link">Work Hour</a></li>
+					<li class="nav-item"><a href="#whyus" class="nav-link">Why Us</a></li>
+					<li class="nav-item"><a href="#video" class="nav-link">Our Video</a></li>
 				</ul>
 			</div>
 		</div>
@@ -146,27 +148,6 @@
 
     </section>
 
-
-      <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-
     <!-----end lading page----->
 
 
@@ -244,7 +225,7 @@
 
 
 		  <!-----------welcome page-------------->
-		<section class="pro-section welcome-section">
+		<section class="pro-section welcome-section" id="about">
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-6 order-md-last heading-section pl-md-5 ftco-animate d-flex align-items-center">
@@ -313,7 +294,7 @@
 
 
     <!-- Service Start -->
-   <section class="pro-section service-section">
+   <section class="pro-section service-section" id="service">
 
    		<div class="col-md-12 text-center order-md-last heading-section line-after ftco-animate pl-md-5 ftco-animate d-flex align-items-center">
 						<div class="w-100">
@@ -329,7 +310,7 @@
         <div class="container">					 	
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <div class="bg-primary border-inner text-center text-white p-5">
+                    <div class="service-item border-inner text-center text-white p-5">
                     	<div class="icon d-flex align-items-center justify-content-center pb-3"><img src='images/icon/choice.png'></div>
                         <h4 class="text-uppercase text-white mb-3">Solar Choices</h4>
                         <p>Choices between different solar panels and where to install them on site.</p>
@@ -337,7 +318,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="bg-primary border-inner text-center text-white p-5">
+                    <div class="service-item border-inner text-center text-white p-5">
                     	<div class="icon d-flex align-items-center justify-content-center pb-3"><img src='images/icon/install.png'></div>
                         <h4 class="text-uppercase text-white mb-3">Installation</h4>
                         <p> Powerful partnerships - ProEdison affiliates with high profile contractors using top quality materials to provide efficient and satisfactory installations.</p>
@@ -345,7 +326,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="bg-primary border-inner text-center text-white p-5">
+                    <div class="service-item border-inner text-center text-white p-5">
                     	<div class="icon d-flex align-items-center justify-content-center pb-3"><img src='images/icon/check.png'></div>
                         <h4 class="text-uppercase text-white mb-3">Check Up</h4>
                         <p>Annual check-ups to ensure continued client satisfaction.</p>
@@ -367,63 +348,142 @@ managing every stage of solar installation, from inception to completion.</p>
     <!-- Service Start -->
 
 
-		<section class="pro-section ftco-about img"style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/banner2.jpg);">
-			<div class="row ftco-animate">
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-primary d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-users text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h6 class="text-primary text-uppercase">Clients</h6>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">232</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-primary d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-tasks text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h6 class="text-primary text-uppercase">Projects</h6>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">1463</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-primary d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-clock text-white"></i>
 
-                        </div>
-                        <div class="ps-4">
-                            <h6 class="text-primary text-uppercase">Hours of Support</h6>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="d-flex">
-                        <div class="bg-primary d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-hard-hat text-white"></i>
 
-                        </div>
-                        <div class="ps-4">
-                            <h6 class="text-primary text-uppercase">Employees</h6>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">15</h1>
-                        </div>
+
+    	<!------wordflow page---------->
+
+		<section class="pro-section workflow-section" id="work">
+				<div class="col-md-12 text-center order-md-last heading-section line-after ftco-animate pl-md-5 ftco-animate d-flex align-items-center">
+						<div class="w-100">
+							<div class="section-title position-relative">
+								<span class="subheading">Work Flow</span>
+								<h2 class="mb-4">Simple Easy Process</h2>
+							</div>
+	
+						</div>
+					</div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="pricingTable light-green">
+                    <svg x="0" y="0" viewBox="0 0 360 220">
+                        <g>
+                            <path fill="#32C36C" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                        c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                        s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                        L0.732,193.75z"></path>
+                        </g>
+                        <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="70">$0</text>
+                    </svg>
+                    <div class="pricing-content">
+                        <h3 class="title">Inquiring</h3>
+                        <ul class="pricing-content">
+                            <li>Is solar the right fit?</li>
+                            <li>Licensed Professionals</li>
+                            <li>Free Assessment</li>
+                            <li>Licensed Professionals</li>
+                        </ul>
+                        <a href="#" class="pricingTable-signup">Contact Us</a>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="pricingTable dark-green">
+                    <svg x="0" y="0" viewBox="0 0 360 220">
+                        <g>
+                            <path fill="#009961" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                        c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                        s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                        L0.732,193.75z"></path>
+                        </g>
+                        <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="70">Quote</text>
+                    </svg>
+                    <div class="pricing-content">
+                        <h3 class="title">Acquiring</h3>
+                        <ul class="pricing-content">
+                            <li>Preference of lease or full purchase</li>
+                            <li>Eligible for Federal and State credits</li>
+                            <li>Applying utility rebates</li>
+                            <li>Easy loan process</li>
+                        </ul>
+                        <a href="#" class="pricingTable-signup">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="pricingTable light-green">
+                    <svg x="0" y="0" viewBox="0 0 360 220">
+                        <g>
+                            <path fill="#32C36C" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                    c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                    s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                    L0.732,193.75z"></path>
+                        </g>
+                        <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="70">$30</text>
+                    </svg>
+                    <div class="pricing-content">
+                        <h3 class="title">Installation</h3>
+                        <ul class="pricing-content">
+                             <li>Qualified master-craft laborers</li>
+                            <li>Time efficient</li>
+                            <li>Fully insured scope of work</li>
+                            <li>Veteran affiliates</li>
+                        </ul>
+                        <a href="#" class="pricingTable-signup">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 		</section>
 
-		<section class="pro-section ftco-about ftco-no-pt img">
+
+
+		<section class="pro-section" id="whyus">
+
+         <!-- Facts Start -->
+        <div class="container-xxl pro-section ftco-about img"style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/banner2.jpg);">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <div class="col-6 col-lg-3 text-center ftco-animate" data-wow-delay="0.1s">
+                        <i class="fa fa-users fa-3x text-primary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">232</h1>
+                        <p class="text-white mb-0">Clients</p>
+                    </div>
+                    <div class="col-6 col-lg-3 text-center ftco-animate" data-wow-delay="0.3s">
+                        <i class="fa fa-tasks fa-3x text-primary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">521</h1>
+                        <p class="text-white mb-0">Projects</p>
+                    </div>
+                    <div class="col-6 col-lg-3 text-center ftco-animate" data-wow-delay="0.5s">
+                        <i class="fa fa-clock fa-3x text-primary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">1463</h1>
+                        <p class="text-white mb-0">Hours Of Support</p>
+                    </div>
+                    <div class="col-6 col-lg-3 text-center ftco-animate" data-wow-delay="0.7s">
+                        <i class="fa fa-hard-hat fa-3x text-primary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">15</h1>
+                        <p class="text-white mb-0">Employees</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+
+		<div class="ftco-about ftco-no-pt img">
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-12 about-intro">
 						<div class="row">
-							<div class="col-md-6 d-flex align-items-stretch">
+							<div class="col-md-6 d-flex align-items-stretch ftco-animate">
 								<div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(images/off-grid.jpg);">
 								</div>
 							</div>
@@ -441,27 +501,12 @@ managing every stage of solar installation, from inception to completion.</p>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+
+	</section>
 
 
-		<!------wordflow page---------->
-
-		<section class="pro-section workflow-section">
-				<div class="col-md-12 text-center order-md-last heading-section line-after ftco-animate pl-md-5 ftco-animate d-flex align-items-center">
-						<div class="w-100">
-							<div class="section-title position-relative">
-								<span class="subheading">Work Flow</span>
-								<h2 class="mb-4">Simple Easy Process</h2>
-							</div>
 	
-						</div>
-					</div>
-
-		</section>
-
-
-
-
 
     <!-------------clients page---------------->
     <section class="pro-section testimonial-section">
@@ -591,7 +636,9 @@ managing every stage of solar installation, from inception to completion.</p>
 
 
 
-    <!-----------FAQ Section----------------->
+
+
+      <!-----------FAQ Section----------------->
     <section class="pro-section faq-section">
 
 
@@ -741,8 +788,10 @@ environment, you should consider a solar lease.</div>
     </section>
 
 
+
+<!---------------video gallery------------------>
     
-    <section class="pro-section gallery-section">
+    <section class="pro-section gallery-section" id="video">
     	<div class="">
     		<div class="gallery">
     			<figure class="gallery-item">
@@ -861,7 +910,13 @@ environment, you should consider a solar lease.</div>
   </div>
 
 
-		<!-- <footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/bg_3.jpg);">
+
+
+
+
+
+<!--------------Footer ---------------->
+	<!-- 	<footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/bg_3.jpg);">
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-md pt-5">
@@ -923,12 +978,83 @@ environment, you should consider a solar lease.</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</footer> -->
 			
 			
 
-			<!-- loader --> -->
-<!-- 			<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+			<!-- loader -->
+
+
+
+    <footer class="footer">
+      <div class="site-section">
+        <div class="container">
+
+          <div class="cta d-block d-md-flex align-items-center px-5 ftco-animate">
+            <div>
+              <h2 class="mb-0">Ready for your next Solar?</h2>
+              <h3 class="text-dark">Let's get started!</h3>
+            </div>
+            <div class="ml-auto">
+              <a href="#" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-4 col-12 ftco-animate">
+              <a href="#" class="footer-logo">ProEdison</a>
+              <p>Cleaner energy today for a better Tomorrow!
+              </p>
+            </div>
+
+            <div class="col-md-4 col-12 ftco-animate">
+              <h3>Contact Us</h3>
+               <p><i class="fa fa-map-marker"></i> 58-12 Queens Blvd, Suite 2 #1044</p>
+		       <a href = "mailto:Pro.Edison@outlook.com" target="_blank"> <p><i class="fa fa-paper-plane"></i> Pro.Edison@outlook.com</p></a>
+		       <a href="tel:(929) 288-9997"> <p><i class="fas fa-phone"></i> (929) 288-9997</p></a>
+            </div>
+
+    
+            <div class="col-md-4 col-12 ftco-animate">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.94680209877!2d-73.9092043846341!3d40.74119607932872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ee17cac18d1%3A0xf34747acbbdf37a2!2s58-12%20Queens%20Blvd%202%201044%2C%20Queens%2C%20NY%2011377%2C%20USA!5e0!3m2!1sen!2snp!4v1679716539482!5m2!1sen!2snp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            </div>
+            
+          </div>
+
+
+          <div class="row mt-5">
+          	<div class="col-12 text-center">
+          		<ul class="list-unstyled social">
+	                <li class="ftco-animate"><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                <li class="ftco-animate"><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                <li class="ftco-animate"><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                <li class="ftco-animate"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	                <li class="ftco-animate"><a href="#"><i class="fa fa-skype"></i></a></li>
+	             </ul>
+          	</div>
+
+          	<div class="col-12 text-center ftco-animate">
+          		<p>Copyright ProEdison &copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved</p>
+          	</div>
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+	<!-- 		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
 
 
 			<script src="js/jquery.min.js"></script>

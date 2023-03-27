@@ -41,7 +41,9 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
+   }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -9048,6 +9050,10 @@ h1, h2, h3, h4, h5,
       color: #32C36C; }
 
 
+.service-section .service-item{
+  background: #009961;
+}
+
 
 .service::after{
     position: absolute;
@@ -9182,7 +9188,11 @@ textarea.form-control {
 .ftco-about {
   position: relative;
   z-index: 0; 
-  height: 50vh;
+  height: 60vh;
+}
+
+.ftco-about i{
+  color: #009961;
 }
 
 
@@ -9270,7 +9280,7 @@ textarea.form-control {
     .ftco-intro h2 span {
       background: #32C36C; }
 
-.ftco-footer {
+/*.ftco-footer {
   font-size: 16px;
   padding: 7em 0;
   z-index: 0;
@@ -9328,7 +9338,7 @@ textarea.form-control {
       transform: translate(-50%, -50%);
       color: #fff !important; }
     .ftco-footer-social li a:hover {
-      color: #32C36C; }
+      color: #32C36C; }*/
 
 .footer-small-nav > li {
   display: inline-block; }
@@ -9653,6 +9663,124 @@ textarea.form-control {
   font-size: 15px; }
 
 
+
+/*workflow section*/
+.pricingTable {
+    text-align: center;
+}
+
+
+
+.pricingTable {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease 0s;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: .5s;
+
+}
+
+.pricingTable:hover {
+    transform:scale(1.1);
+
+}
+
+.pricingTable svg {
+    display: block;
+    margin-left: -1px
+}
+
+.pricingTable .pricing-content {
+    padding: 50px 0 30px;
+    position: relative
+}
+
+.pricingTable .title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #32C36C;
+    text-transform: uppercase;
+    margin: 0 0 10px
+}
+
+.pricingTable .pricing-content ul {
+    padding: 0;
+    margin: 0 0 30px;
+    list-style: none
+}
+
+.pricingTable .pricing-content ul li {
+    font-size: 18px;
+    color: rgba(0, 0, 0, .3);
+    line-height: 40px;
+    text-transform: capitalize
+}
+
+.pricingTable .pricingTable-signup {
+    display: inline-block;
+    padding: 8px 50px;
+    background: #ae003d;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    transition: all .3s ease 0s
+}
+
+.pricingTable:hover .pricingTable-signup {
+    box-shadow: 0 0 10px #ae003d
+}
+
+.pricingTable .pricingTable-signup:hover {
+    color: #ae003d;
+    background: #fff;
+    
+}
+
+.pricingTable.light-green .title {
+    color: #32C36C
+}
+
+.pricingTable.light-green .pricingTable-signup {
+    background: #32C36C
+}
+
+.pricingTable.light-green:hover .pricingTable-signup {
+    box-shadow: 0 0 10px #32C36C
+}
+
+.pricingTable.light-green .pricingTable-signup:hover {
+    color: #32C36C;
+    background: #fff;
+
+}
+
+.pricingTable.dark-green .title {
+    color: #009961
+}
+
+.pricingTable.dark-green .pricingTable-signup {
+    background: #009961
+}
+
+.pricingTable.dark-green:hover .pricingTable-signup {
+    box-shadow: 0 0 10px #009961
+}
+
+.pricingTable.dark-green .pricingTable-signup:hover {
+    color: #009961;
+    background: #fff;
+}
+
+@media only screen and (max-width:990px) {
+    .pricingTable {
+        margin-bottom: 30px
+    }
+}
 
 
 
@@ -10086,6 +10214,103 @@ video{
   width:100%;
   height:auto;
 }
+
+
+
+
+.footer {
+  position: relative;
+  color: #fff;
+  padding: 2rem 0;
+  margin-top: 8rem;
+  background-color: #141d2a; }
+
+  .footer .container {
+    position: relative; }
+
+  .footer h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1.5; 
+    font-weight: bold;
+    color: #32C36C;
+
+  }
+
+  .footer .links li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    display: block; }
+
+    .footer .links li a,
+    .footer p {
+      color: #666873; 
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+      .footer .links li a:hover {
+        color: #fff; }
+
+  .footer .social li {
+    display: inline-block;
+    position: relative; 
+  }
+
+    .footer .social li a {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      background-color: #32C36C;
+      color: #fff;
+    }
+
+
+      .footer .social li a > i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
+      }
+
+  .footer .footer-logo {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 5px;
+    color: #32C36C;
+    font-family: "Arizonia", cursive;
+  }
+
+
+  .footer .cta {
+    -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+    padding: 20px;
+    background-color: #009961;
+    top: -90px;
+    position: relative; 
+  }
+
+    .footer .cta h2, .footer .cta h3 {
+      line-height: 1.5;
+      color: #fff; 
+    }
+
+    .footer .cta h3 {
+      font-size: 20px; 
+    }
+
+
+
+
+
 
 #ftco-loader {
   position: fixed;
