@@ -8731,7 +8731,7 @@ h1, h2, h3, h4, h5,
     display: block;
     margin-bottom: 5px;
     color: #32C36C;
-    font-family: "Arizonia";
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-wrap .owl-carousel-inner h2 {
@@ -10444,7 +10444,7 @@ video{
     display: block;
     margin-bottom: 5px;
     color: #fff;
-    font-family: "Arizonia", cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 .home_text
